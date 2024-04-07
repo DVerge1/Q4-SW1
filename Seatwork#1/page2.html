@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Yen</title>
+<style>
+    body {
+        background-color:bisque;
+        text-align:center;
+        padding: 50px;
+
+    }
+    #output {
+        background-color: black;
+        color:white;
+        width: 100px;
+        margin-left: 770px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    
+    }
+</style>
+</head>
+<body>
+    <img src="https://media1.tenor.com/m/m-cPNIP-630AAAAC/money-chasing-money.gif" class="rounded-circle gif1" height="300px" width="300px"><br><br>
+    <h1>The equivalent amount of 100 pesos in Yen is: </h1>
+    <h2 id="output"></h2>
+    <script>
+        // assigns value to the variables used in displaying the conversion
+        var peso = 100;
+        var yen = 2.68;
+        const total = peso * yen;
+        document.getElementById("output").innerHTML=total
+    </script>
+    <a href="file:///C:/Users/dhver/OneDrive/Documents/School/ICT/Q4/Seatwork%231/index.html" class="btn btn-warning btn-lg">Back to Main Page</a>
+</body>
+</html>
